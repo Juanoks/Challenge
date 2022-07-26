@@ -1,0 +1,58 @@
+*{ /*el asterisco aplica a todo*/
+    background: #E5E5E5;
+    font-family: "Inter" sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+main{
+    display: flex;
+}
+
+.input-text{
+    margin-top: 90px;
+}
+
+.input-text-area{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;  
+}
+
+.botonCodificar{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    padding: 24px;
+    gap: 8px;
+    background-color: darkblue;
+    text-align:center;
+    line-height: 19.36px;
+}
+
+.botonDecodificar{
+    width: 328px;
+    height: 67px;
+    left: 32px;
+    border-radius: 24px;
+    padding: 24px;
+    gap: 8px;
+    background-color: lightblue;
+    text-align:center;
+    line-height: 19.36px;
+}
+
+.copiar{
+    display: block;
+    position: relative;
+    float: right;
+    margin-top: 10px;
+    padding: 0.5rem 1rem;
+    border: 3px solid #32a7e5;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #32a7e5;
+    margin-right: -45%;
+    margin-top: -12%;
+}
